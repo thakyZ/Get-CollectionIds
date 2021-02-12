@@ -84,7 +84,7 @@ AliasesToExport = @()
 # DscResourcesToExport = @()
 
 # List of all modules packaged with this module
-ModuleList = @("Get-CollectionIds")
+# ModuleList = @()
 
 # List of all files packaged with this module
 FileList = @("Get-CollectionIds.psm1","Get-CollectionIds.psd1","LICENSE","README.md","icon.png")
