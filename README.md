@@ -1,7 +1,7 @@
 # Get-CollectionIds
 Gets a list of mod ids from a collection id off of the Steam Workshop.
 
-LICENSE: `MIT 2021`
+LICENSE: [`MIT 2021`](https://github.com/thakyZ/Get-CollectionIds/blob/main/LICENSE)
 
 ## Usage
 ```pwsh
@@ -19,5 +19,5 @@ Get-CollectionIds -Id 000000000 -Output C:\workshop.txt
 If you would like to contribute to this code you can make a fork and a pull request with the changes.
 
 ## Issues/Wiki
-[Issues](https://github.com/thakyZ/Get-CollectionIds/issues)
-[Wiki](https://github.com/thakyZ/Get-CollectionIds/)
+[Issues](https://github.com/thakyZ/Get-CollectionIds/issues)   
+[Wiki](https://github.com/thakyZ/Get-CollectionIds/blob/main/README.md)
