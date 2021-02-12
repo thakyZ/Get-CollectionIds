@@ -12,7 +12,9 @@ param (
 
   $modList = $Output
 
+  $ProgressPreference = 'SilentlyContinue'
   $getPage = Invoke-WebRequest -Uri $WorkshopCollectionURL
+  $ProgressPreference = 'Continue'
   $modIdCollection = @()
   $Links = $getPage.Links
   foreach ($link in $Links) {
